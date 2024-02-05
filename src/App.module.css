@@ -1,3 +1,9 @@
-.firstContent{
+.firstContent {
     width: 100%;
+    display: block;
+}
+
+.secondContent {
+    width: 100%;
+    display: block;
 }
