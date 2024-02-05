@@ -1,16 +1,18 @@
 import './Global.css'
 import Header from './components/Header/Header'
-import firstContent from '../src/assets/firstContent.webp'
 import styles from "./App.module.css"
+import firstContent from '../src/assets/firstContent.webp'
 import secondContent from '../src/assets/secondContent.webp'
+import thirdContent from '../src/assets/thirdContent.webp'
 
 function App() {
 
   return (
     <>
       <Header />
-      <div className={styles.contentsDiv}><img src={firstContent} className={styles.firstContent} alt="firstContent" /></div>
-      <div className={styles.contentsDiv}><img src={secondContent} className={styles.firstContent} alt="secondContent" />img</div>
+      <img src={firstContent} className={styles.contents} alt="firstContent" />
+      <img src={secondContent} className={styles.contents} alt="secondContent" />
+      <img src={thirdContent} className={styles.contents} alt="thirdContent" />
     </>
   )
 }
