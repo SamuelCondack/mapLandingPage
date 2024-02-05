@@ -4,8 +4,10 @@ import Pics from './components/Pics/Pics'
 import styles from "./App.module.css"
 import fourthContent from "./assets/fourthContent.webp"
 import objectivePic from "./assets/objectivePic.png"
+import yellowCheck from "./assets/yellowCheck.png"
 
 function App() {
+
 
   return (
     <>
@@ -34,14 +36,35 @@ function App() {
         </div>
       </div>
       <img src={fourthContent} className={styles.fourthContent} alt="fourthContent" />
-      <div className={styles.ourServices}>
+        <div className={styles.ourServices}>
+          <div className={styles.serviceItem}>
+            <img src={objectivePic} className={styles.objectivePic} alt="objective" />
+            <p className={styles.serviceTitle}>CONSULTORIA START</p>
+            <p className={styles.serviceDescription}>A Consultoria Start é direcionada a empreendedores que desejam ingressar nos marketplaces e buscam uma orientação completa, com um plano definido que abrange desde o início até o fim. Nossa consultoria engloba o cadastro de seus produtos, seguindo estratégias que destacarão seus produtos. Forneceremos direcionamento estratégico e trabalharemos na formulação das melhores estratégias para o seu negócio. Ao concluir este programa de consultoria, seu negócio estará plenamente integrado aos principais marketplaces do Brasil.</p>
+            <button className={styles.learnMore}>Saiba mais</button>
+          </div>
+          {/* ---------------- */}
+          <div className={styles.serviceItem}>
+            <img src={objectivePic} className={styles.objectivePic} alt="objective" />
+            <p className={styles.serviceTitle}>ASSESSORIA START</p>
+            <p className={styles.serviceDescription}>A Assessoria Start é ideal para empreendedores que já possuem um negócio, mas ainda não estão presentes nos marketplaces. Este é um serviço contínuo, concebido para estar ao seu lado diariamente, acompanhando-o ao longo de toda a sua jornada nos marketplaces. Durante todo o percurso, você contará com uma equipe 100% especializada em marketplaces, que cuidará da gestão do seu negócio.</p>
+            <button className={styles.learnMore}>Saiba mais</button>
+          </div>
+        {/* ---------------- */}
         <div className={styles.serviceItem}>
-          <img src={objectivePic} className={styles.objectivePic} alt="objective" />
-          <p className={styles.serviceTitle}>CONSULTORIA START</p>
-          <p className={styles.serviceDescription}>A Consultoria Start é direcionada a empreendedores que desejam ingressar nos marketplaces e buscam uma orientação completa, com um plano definido que abrange desde o início até o fim. Nossa consultoria engloba o cadastro de seus produtos, seguindo estratégias que destacarão seus produtos. Forneceremos direcionamento estratégico e trabalharemos na formulação das melhores estratégias para o seu negócio. Ao concluir este programa de consultoria, seu negócio estará plenamente integrado aos principais marketplaces do Brasil.</p>
-          <button className={styles.learnMore}>Saiba mais</button>
+            <img src={yellowCheck} className={styles.objectivePic} alt="objective" />
+            <p className={styles.serviceTitle}>ASSESSORIA DE REESTRUTURAÇÃO</p>
+            <p className={styles.serviceDescription}>A Assessoria de Reestruturação é a escolha ideal para empreendedores que já possuem um negócio consolidado e obtêm um faturamento relevante nos marketplaces. Este serviço é contínuo, projetado para estar presente no seu dia a dia, acompanhando você ao longo de toda a sua jornada nos marketplaces. Durante todo esse percurso, você terá à disposição uma equipe 100% especializada em marketplaces, dedicada à gestão do seu negócio.</p>
+            <button className={styles.learnMore}>Saiba mais</button>
+          </div>
+        {/* ---------------- */}
+        <div className={styles.serviceItem}>
+            <img src={yellowCheck} className={styles.objectivePic} alt="objective" />
+            <p className={styles.serviceTitle}>CONSULTORIA DE REESTRUTURAÇÃO</p>
+            <p className={styles.serviceDescription}>A Consultoria de Reestruturação é ideal para empreendedores que já operam nos marketplaces e buscam o suporte necessário para conquistar independência. Oferecemos um serviço completo, com início, meio e fim, projetado para transformar a visão do seu negócio em apenas 60 dias. Com a nossa consultoria, você estará pronto para caminhar com confiança no mundo dos marketplaces</p>
+            <button className={styles.learnMore}>Saiba mais</button>
+          </div>
         </div>
-      </div>
     </>
   )
 }
