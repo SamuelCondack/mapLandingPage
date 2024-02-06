@@ -41,8 +41,8 @@
 .ourServices {
     background-color: #D2D800;
     display: flex;
-    gap: 150px;
-    padding-left: 150px;
+    gap: 50px;
+    padding-left: 50px;
     overflow: scroll;
 }
 
@@ -117,22 +117,39 @@
     width: 100%;
     display: block;
 }
+
 @media screen and (max-width: 1085px) {
-    .statisticsContainer{
+    .statisticsContainer {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         place-items: center
     }
-    .statisticsItem{
+
+    .statisticsItem {
         padding: 10px;
     }
 }
+
 @media screen and (max-width: 950px) {
+    .ourServices {
+        gap: 80px;
+    }
+
     .serviceItem {
-        width: 500px;
+        max-width: 500px;
     }
 
     .serviceDescription {
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .serviceItem {
+        max-width: 300px;
+    }
+
+    .serviceDescription {
+        width: 200px;
     }
 }
