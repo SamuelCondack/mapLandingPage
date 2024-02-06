@@ -5,6 +5,16 @@ import styles from "./App.module.css"
 import fourthContent from "./assets/fourthContent.webp"
 import objectivePic from "./assets/objectivePic.png"
 import yellowCheck from "./assets/yellowCheck.png"
+import mercadolivreLogoCropped from "./assets/mercadolivreLogoCropped.jpg"
+import amazonLogo from "./assets/amazonLogo.webp"
+import sebraeLogo from "./assets/sebraeLogo.webp"
+import sheinLogo from "./assets/sheinLogo.webp"
+import tinyLogo from "./assets/tinyLogo.webp"
+import blingLogo from "./assets/blingLogo.webp"
+import magaluLogo from "./assets/magaluLogo.webp"
+import endingContent from "./assets/endingContent.webp"
+
+
 
 function App() {
 
@@ -65,6 +75,19 @@ function App() {
             <button className={styles.learnMore}>Saiba mais</button>
           </div>
         </div>
+        <div className={styles.partnersContainer}>
+          <h2>Parceiros Oficiais</h2>
+          <div className={styles.partnersLogos}>
+            <img className={styles.partnersImages} src={mercadolivreLogoCropped} alt="Mercado Livre" />
+            <img className={styles.partnersImages} src={amazonLogo} alt="amazon logo" />
+            <img className={styles.partnersImages} src={sheinLogo} alt="shein logo" />
+            <img className={styles.partnersImages} src={magaluLogo} alt="magalu logo" />
+            <img className={styles.partnersImages} src={sebraeLogo} alt="sebrae logo" />
+            <img className={styles.partnersImages} src={tinyLogo} alt="tiny logo" />
+            <img className={styles.partnersImages} src={blingLogo} alt="bling logo" />
+          </div>
+        </div>
+        <img className={styles.contents} src={endingContent} alt="MAP Mentoria e assessoria" />
     </>
   )
 }

@@ -87,11 +87,42 @@
     transition: all 1s;
     transform: scale(1.2)
 }
+
+.partnersContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.partnersContainer>h2 {
+    color: #D2D800;
+    font-size: 42px;
+    text-align: center;
+}
+
+.partnersLogos {
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-bottom: 20px;
+}
+
+.partnersImages {
+    max-width: 250px;
+    border-radius: 20%;
+}
+.contents {
+    width: 100%;
+    display: block;
+}
+
 @media screen and (max-width: 950px) {
-    .serviceItem{
+    .serviceItem {
         width: 500px;
     }
-    .serviceDescription{
+
+    .serviceDescription {
         width: 400px;
     }
 }
