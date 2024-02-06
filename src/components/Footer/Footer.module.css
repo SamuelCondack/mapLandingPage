@@ -67,3 +67,13 @@
     background-color: #ffffffb7;
     cursor: pointer;
 }
+.subFooter{
+    display: flex;
+    background-color: #D2D800;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.subFooter > a{
+    text-decoration: none;
+    color: #000;
+}

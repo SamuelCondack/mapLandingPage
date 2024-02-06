@@ -38,6 +38,12 @@ export default function Footer(){
                 </div>
             </div>
         </div>
+        <div className={styles.subFooter}>
+            <p>MAP Marketplaces - Copyright (c) - Todos os direitos reservados</p>
+            <a href="">
+                <p>Política de privacidade</p>
+            </a>
+        </div>
         </>
     )
 }
