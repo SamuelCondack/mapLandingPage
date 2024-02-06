@@ -24,5 +24,6 @@
 }
 
 .links:hover {
+    transition: all 0.5s;
     color: #FFFF00;
 }
