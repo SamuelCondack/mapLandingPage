@@ -12,7 +12,7 @@ import sheinLogo from "./assets/sheinLogo.webp"
 import tinyLogo from "./assets/tinyLogo.webp"
 import blingLogo from "./assets/blingLogo.webp"
 import magaluLogo from "./assets/magaluLogo.webp"
-import endingContent from "./assets/endingContent.webp"
+import endingContent from "./assets/endingContent.jpg"
 import Footer from './components/Footer/Footer'
 
 

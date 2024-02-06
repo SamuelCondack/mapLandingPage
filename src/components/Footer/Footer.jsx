@@ -33,8 +33,8 @@ export default function Footer(){
             <div className={styles.socials}>
                 <p>onde nos encontrar</p>
                 <div className={styles.socialIcons}>
-                    <img className={styles.socialImages} src={instagramLogo} alt="instagram logo" />
-                    <img className={styles.socialImages} src={linkedinLogo} alt="linkedin logo" />
+                    <a href=""><img className={styles.socialImages} src={instagramLogo} alt="instagram logo" /></a>
+                    <a href=""><img className={styles.socialImages} src={linkedinLogo} alt="linkedin logo" /></a>
                 </div>
             </div>
         </div>
