@@ -13,7 +13,7 @@ import tinyLogo from "./assets/tinyLogo.webp"
 import blingLogo from "./assets/blingLogo.webp"
 import magaluLogo from "./assets/magaluLogo.webp"
 import endingContent from "./assets/endingContent.webp"
-
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -88,6 +88,7 @@ function App() {
           </div>
         </div>
         <img className={styles.contents} src={endingContent} alt="MAP Mentoria e assessoria" />
+        <Footer/>
     </>
   )
 }
