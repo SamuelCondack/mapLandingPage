@@ -99,11 +99,11 @@
     }
 
     .footerFirst {
-        order: 1;
+        align-items: center;
     }
 
-    .socials {
-        order: 2;
+    .footerFirst>p {
+        max-width: 100%;
     }
 
     .subFooter {

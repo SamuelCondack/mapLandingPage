@@ -18,7 +18,7 @@ function Header() {
             <div className={styles.headerContainer}>
                 <div className={styles.mobileMenu} id="mobileMenu">
                     <div className={styles.mobileLinks}>
-                        <a href="#" className={styles.links}>Home</a>
+                        <a href="/" className={styles.links}>Home</a>
                         <a href="https://mapmarketplaces.com/quem-somos/" className={styles.links}>Quem Somos?</a>
                         <a href="https://mapmarketplaces.com/servicos/" className={styles.links}>Serviços</a>
                         <a href="https://mapmarketplaces.com/produtos/" className={styles.links}>Produtos</a>
@@ -27,7 +27,7 @@ function Header() {
                     </div>
                     <img onClick={mobileNone} id="xIcon" className={styles.xIcon} src={xIcon} alt="x icon" />
                 </div>
-                <a href="/"><img src={mapLogo} alt="logo" className={styles.headerLogo} /></a>
+                <a href="#"><img src={mapLogo} alt="logo" className={styles.headerLogo} /></a>
                 <ul className={styles.ulLinks} id="ulLinks">
                     <li><a href="#" className={styles.links}>Home</a></li>
                     <li><a href="https://mapmarketplaces.com/quem-somos/" className={styles.links}>Quem Somos?</a></li>
