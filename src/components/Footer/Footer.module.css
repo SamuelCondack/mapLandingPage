@@ -111,4 +111,9 @@
         justify-content: center;
         align-items: center;
     }
+
+    .subFooter>p {
+        margin: 20px;
+        order: 2;
+    }
 }

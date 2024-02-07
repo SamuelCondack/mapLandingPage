@@ -18,23 +18,23 @@ function Header() {
             <div className={styles.headerContainer}>
                 <div className={styles.mobileMenu} id="mobileMenu">
                     <div className={styles.mobileLinks}>
-                        <a href="home" className={styles.links}>Home</a>
-                        <a href="quem somos" className={styles.links}>Quem Somos?</a>
-                        <a href="serviços" className={styles.links}>Serviços</a>
-                        <a href="produtos" className={styles.links}>Produtos</a>
-                        <a href="parceiros" className={styles.links}>Parceiros</a>
-                        <a href="contato" className={styles.links}>Contato</a>
+                        <a href="#" className={styles.links}>Home</a>
+                        <a href="https://mapmarketplaces.com/quem-somos/" className={styles.links}>Quem Somos?</a>
+                        <a href="https://mapmarketplaces.com/servicos/" className={styles.links}>Serviços</a>
+                        <a href="https://mapmarketplaces.com/produtos/" className={styles.links}>Produtos</a>
+                        <a href="https://mapmarketplaces.com/parceiros/" className={styles.links}>Parceiros</a>
+                        <a href="https://mapmarketplaces.com/contato/" className={styles.links}>Contato</a>
                     </div>
                     <img onClick={mobileNone} id="xIcon" className={styles.xIcon} src={xIcon} alt="x icon" />
                 </div>
                 <a href="/"><img src={mapLogo} alt="logo" className={styles.headerLogo} /></a>
                 <ul className={styles.ulLinks} id="ulLinks">
-                    <li><a href="home" className={styles.links}>Home</a></li>
-                    <li><a href="quem somos" className={styles.links}>Quem Somos?</a></li>
-                    <li><a href="serviços" className={styles.links}>Serviços</a></li>
-                    <li><a href="produtos" className={styles.links}>Produtos</a></li>
-                    <li><a href="parceiros" className={styles.links}>Parceiros</a></li>
-                    <li><a href="contato" className={styles.links}>Contato</a></li>
+                    <li><a href="#" className={styles.links}>Home</a></li>
+                    <li><a href="https://mapmarketplaces.com/quem-somos/" className={styles.links}>Quem Somos?</a></li>
+                    <li><a href="https://mapmarketplaces.com/servicos/" className={styles.links}>Serviços</a></li>
+                    <li><a href="https://mapmarketplaces.com/produtos/" className={styles.links}>Produtos</a></li>
+                    <li><a href="https://mapmarketplaces.com/parceiros/" className={styles.links}>Parceiros</a></li>
+                    <li><a href="https://mapmarketplaces.com/contato/" className={styles.links}>Contato</a></li>
                 </ul>
                 <img onClick={mobileFlex} className={styles.whiteMenu} src={whiteMenu} alt="white menu" />
             </div>
